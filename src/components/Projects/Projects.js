@@ -26,7 +26,7 @@ function Projects() {
               imgPath={formbuilder}
               isBlog={false}
               title="Form Builder"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              description="Created a Form Building application using NextJs13, TypeScript, Shadcn-Ui and Prisma for ORM where user can create a form, save a from or publish to share the form. • Added interactive way of creating custom forms where user has to drag and drop the element which they need in their form • User can see Total Visits, Total Submissions, Submission Rate and Bounce Rate of all form and of each form they created. • Used Clerk for user authentication and PostgreSQL for saving of user data and SWR for fetching for data."
               ghLink="https://github.com/ashpreetsinghanand/FormBuilder"
               demoLink="https://youtu.be/ue9R2-g4LPw"
             />
@@ -37,7 +37,7 @@ function Projects() {
               imgPath={wallet}
               isBlog={false}
               title="Crypto Wallet Extension"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              description="."
               ghLink="https://github.com/ashpreetsinghanand/CryptoWalletExtension"
               // demoLink=""
             />
@@ -48,7 +48,7 @@ function Projects() {
               imgPath={lottery}
               isBlog={false}
               title="Lottery Dapp"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              description="Created a Lottery Dapp using Solidity, Truffle, JavaScript and NextJs framework. Smart contract deployed on polygon mumbai testnet • Multiple User can enter in a lottery and the owner can pick a winner randomly."
               ghLink="https://github.com/ashpreetsinghanand/LotteryDapp"
               demoLink="https://youtu.be/5Nm3lYIY7q8"
             />
@@ -59,7 +59,7 @@ function Projects() {
               imgPath={ainft}
               isBlog={false}
               title="AI NFT Generator"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+              description="Created AI based NFT website. User have to connect wallet and give name and description about the NFT art they want to mint."
               ghLink="https://github.com/ashpreetsinghanand/NFT-AI-Image-Generator"
               demoLink="https://nftaigenrator99.netlify.app/"
             />
@@ -70,7 +70,7 @@ function Projects() {
               imgPath={todo}
               isBlog={false}
               title="Todo Dapp"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
+              description="Created a Todo List Dapp using Solidity, Truffle, JavaScript, Ethers.js and NextJs on Matic Testnet. User can Add and Delete Task a for which they Pay Gas Fee."
               ghLink="https://github.com/ashpreetsinghanand/ToDoDapp"
               demoLink="https://youtu.be/6DjtAYyqmuE"
             />
@@ -81,8 +81,7 @@ function Projects() {
               imgPath={cryptoverse}
               isBlog={false}
               title="CryptoVerse"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+              description="Created a crypto website using JavaScript, React at Frontend, Firebase and using Coingecko Api. Features added like pagination, Login, SignUp and Searching"
               ghLink="https://github.com/ashpreetsinghanand/CRYPTO-VERSE"
                demoLink="https://cryptoverse99.netlify.app/"
             />
