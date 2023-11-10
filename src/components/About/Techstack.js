@@ -5,24 +5,28 @@ import {
   DiJavascript1,
   DiReact,
   DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
-  DiJava,
+  DiDjango,
+
 } from "react-icons/di";
+import {FaHardHat} from "react-icons/fa"
 import {
-  SiRedis,
+  SiWeb3Dotjs,
+  SiPrisma,
+  SiTypescript,
   SiFirebase,
   SiNextdotjs,
   SiSolidity,
   SiPostgresql,
+  SiMongodb,
+  SiExpress,
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
+  
+      <Col  xs={4} md={2} className="tech-icons ">
         <CgCPlusPlus />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -32,40 +36,49 @@ function Techstack() {
         <TbBrandGolang />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <SiTypescript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiSolidity />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
+     
       <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <DiReact />
       </Col>
+      
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
+        <SiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <SiPrisma />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <SiExpress />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiNodejs />
+      </Col>
+      
+      <Col xs={4} md={2} className="tech-icons">
+        <FaHardHat />
+      </Col>
+      
+      <Col xs={4} md={2} className="tech-icons">
+        <SiWeb3Dotjs />
+      </Col>
+      
+      <Col xs={4} md={2} className="tech-icons">
+        <DiDjango />
       </Col>
     </Row>
   );
 }
+
 
 export default Techstack;
